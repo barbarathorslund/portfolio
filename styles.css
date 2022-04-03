@@ -85,6 +85,40 @@ button{
     display: none;
 }
 
+.page-content{
+    border: 1px solid pink;
+}
+
+/* email page section */
+.page__content__email-container{
+    display: flex;
+    position: fixed;
+    bottom:0;
+    left: auto;
+    right: 30px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.email{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+}
+
+.email::after {
+    content: "";    
+    background-color: #FF084A;
+    display: inline-block;
+    width: 3px;
+    height: 120px;
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 750px) {
     
     /* Hide top navigation links and show burger menu icon in mobile version */
@@ -105,6 +139,13 @@ button{
     }
 
     .email{
+        display: none;
+    }
+}
+
+
+@media screen and (max-height: 410px) {
+    .email {
         display: none;
     }
 }
