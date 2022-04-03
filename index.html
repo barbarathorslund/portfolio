@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-col-dark">
+    <div class="topnav bg-col-dark">
+        <div class="topnav__logo txt-col-accent font-title">
+            Barbara
+        </div>
+        <ul class="topnav__links font-title">
+            <li><a href="#" class="topnav__link txt-col-primary">About me</a></li>
+            <li><a href="#" class="topnav__link txt-col-primary">Projects</a></li>
+            <li><a href="#" class="topnav__link txt-col-primary">Contact</a></li>
+        </ul>
+        <button class="burger-menu"><img src="icons/menu.svg"></button>
+    </div>
+    <script>
+        // Click event listener on burger menu icon by class className
+        document.querySelector('.burger-menu').addEventListener('click', addMenuClickClass)
+
+        // Remove class when resizing window
+        window.addEventListener('resize', removeMenuClickClass)
+
+        // Toggle topnav__links className and limited height on body
+        function addMenuClickClass() {
+            document.querySelector('.topnav__links').classList.toggle('topnav__links--menu-clicked')
+        }
+
+        // Remove menu clicked class when resize over 600px or scrolling 100px
+        function removeMenuClickClass() {
+            if (window.innerWidth > 750 || window.scrollY > 100) {
+                document.querySelector('.topnav__links').classList.remove('topnav__links--menu-clicked')
+            }
+        }
+    </script>
+</body>
+
+</html>
