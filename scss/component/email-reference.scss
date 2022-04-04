@@ -1,0 +1,44 @@
+@import 'scss/base/colors.scss';
+
+.email-container{
+    display: flex;
+    position: fixed;
+    bottom:0;
+    left: auto;
+    right: 30px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+.email-container__input{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    writing-mode: vertical-rl;
+    margin: 20px auto;
+}
+
+.email-container__input::after {
+    content: "";    
+    background-color: $c-bright-pink;
+    display: inline-block;
+    width: 3px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    /* Hide email on mobile version*/
+    .email-container__input{
+        display: none;
+    }
+}
+
+@media screen and (max-height: 410px) {
+    /* Hide email on small window height */
+    .email-container__input {
+        display: none;
+    }
+}

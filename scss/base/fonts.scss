@@ -1,0 +1,43 @@
+/* Fonts */
+.font-title {
+    font-family: 'Kurye', sans-serif;
+}
+.font-text {
+    font-family: 'inria sans', sans-serif;
+}
+.font-accent {
+    font-family: 'inconsolata', sans-serif;
+}
+
+.size-big-title {
+    font-size: clamp(40px, 8vw, 55px);
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.size-med-title {
+    font-size: 35px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.size-small-title {
+    font-size: 25px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.size-normal-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.size-small-text { 
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+

@@ -1,0 +1,47 @@
+/* background colors */
+.bg-col-dark {
+  background-color: #FF9F40; }
+
+.bg-col-med {
+  background-color: #FFB973; }
+
+.bg-col-light {
+  background-color: #FFD3A7; }
+
+/* text colors */
+.txt-col-accent {
+  color: #FF084A; }
+
+.txt-col-primary {
+  color: #fff; }
+
+.txt-col-secondary {
+  color: #FFECD9; }
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 88%; }
+
+/* allow full width on mobile version */
+@media (max-width: 750px) {
+  .page-content {
+    max-width: none; } }
+
+.page-content__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 75px 50px 100px 50px;
+  background-color: #FFB973; }
+
+/* content box container height */
+@media (min-height: 500px) {
+  .page-content__container {
+    height: 80vh; } }
+
+.page-content__section {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px; }

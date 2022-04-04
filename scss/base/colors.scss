@@ -1,0 +1,28 @@
+$c-dark-orange: #FF9F40;
+$c-med-orange: #FFB973;
+$c-light-orange: #FFD3A7;
+$c-white: #fff;
+$c-peach: #FFECD9;
+$c-bright-pink: #FF084A;
+
+/* background colors */
+.bg-col-dark {
+    background-color: $c-dark-orange;
+}
+.bg-col-med {
+    background-color: $c-med-orange;
+}
+.bg-col-light{
+    background-color: $c-light-orange;
+}
+
+/* text colors */
+.txt-col-accent {
+    color: $c-bright-pink;
+}
+.txt-col-primary {
+    color: $c-white;
+}
+.txt-col-secondary {
+    color: $c-peach;
+}

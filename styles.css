@@ -1,9 +1,9 @@
 html,body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0;
     box-sizing: border-box;
+    height: 2000px;
 }
 
 a {
@@ -119,6 +119,8 @@ button{
     margin-top: 20px;
 }
 
+
+
 @media screen and (max-width: 750px) {
     
     /* Hide top navigation links and show burger menu icon in mobile version */
@@ -133,11 +135,7 @@ button{
         gap: 30px;
     }
 
-    /* Hide right page section on mobile version*/
-    .page__right-section {
-        display: none;
-    }
-
+    /* Hide email on mobile version*/
     .email{
         display: none;
     }

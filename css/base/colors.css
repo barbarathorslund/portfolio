@@ -1,0 +1,19 @@
+/* background colors */
+.bg-col-dark {
+  background-color: #FF9F40; }
+
+.bg-col-med {
+  background-color: #FFB973; }
+
+.bg-col-light {
+  background-color: #FFD3A7; }
+
+/* text colors */
+.txt-col-accent {
+  color: #FF084A; }
+
+.txt-col-primary {
+  color: #fff; }
+
+.txt-col-secondary {
+  color: #FFECD9; }

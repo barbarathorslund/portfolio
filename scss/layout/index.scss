@@ -1,0 +1,44 @@
+@import 'scss/base/fonts.scss';
+@import 'scss/base/colors.scss';
+@import 'scss/component/topnav.scss';
+@import 'scss/component/email-reference.scss';
+@import 'scss/component/page-content.scss';
+
+html,body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 2000px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+h1,h2,p {
+    font-weight: normal;
+    margin-top:0;
+    padding-top:0;
+}
+
+  
+
+/*max width*/
+.maxw-400 {
+    max-width: 400px;
+}
