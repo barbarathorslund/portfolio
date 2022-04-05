@@ -10,7 +10,8 @@
 </head>
 
 <body class="bg-col-dark">
-    <div class="topnav bg-col-dark">
+    
+    <div class="topnav">
         <div class="topnav__logo txt-col-accent font-title">
             Barbara
         </div>
@@ -21,23 +22,35 @@
         </ul>
         <button class="burger-menu"><img src="icons/menu.svg"></button>
     </div>
-    <div class="page-content">
-        <div class="page-content__container">
-            <div class="page-content__section">
-                <p class="font-accent size-small-title txt-col-primary"> Hi world! </p>
-                <h2 class="font-title size-big-title txt-col-secondary">I do front-end development.</h2>
-                <button class="font-accent size-small-title txt-col-accent">Explore my work</button>
+    
+    <div class="page row">
+
+        <div class="page__content col flex-1">
+            <div class="main-section">
+                <div class="main-section__content">
+                    <div class="container--inner">
+                        <p class="font-accent size-small-title txt-col-primary"> Hi world! </p>
+                        <h1 class="font-title size-big-title txt-col-secondary">I do front-end development.</h1>
+                        <button class="btn font-accent size-small-title txt-col-accent">Explore my work</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-section">
+                <h2 class="main-section__title"> About me </h2>
+                <div class="main-section__content">
+            </div>
             </div>
         </div>
-        <div class="page-content__section-title"></div>
-        <div class="page-content__section">
+
+        <div class="page__right-sidebar hide-mobile">
+            <div class="email-container">
+                <a href="mailto:barbarathorslund@hotmail.com"
+                    class="email-container__input font-accent txt-col-accent">barbarathorslund@hotmail.com
+                </a>
+            </div>
         </div>
     </div>
-    <div class="email-container">
-        <a href="mailto:barbarathorslund@hotmail.com"
-            class="email-container__input font-accent txt-col-accent">barbarathorslund@hotmail.com
-        </a>
-    </div>
+
     <script src="script/navbar.js"></script>
 </body>
 

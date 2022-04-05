@@ -1,0 +1,32 @@
+@import 'scss/base/colors.scss';
+
+/* main section height */
+@media (min-height: 500px){
+    .main-section{
+        height: 80vh;
+    }
+}
+
+.main-section__title {
+    
+    
+}
+
+.main-section__content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 50px 100px 50px; 
+    background-color: $c-med-orange;
+}
+
+
+
+.container--inner{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+

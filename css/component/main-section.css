@@ -18,19 +18,20 @@
 .txt-col-secondary {
   color: #FFECD9; }
 
-.main-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 75px 50px 100px 50px;
-  background-color: #FFB973; }
-
-/* content box container height */
+/* main section height */
 @media (min-height: 500px) {
   .main-section {
     height: 80vh; } }
 
 .main-section__content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 75px 50px 100px 50px;
+  background-color: #FFB973; }
+
+.container--inner {
   display: flex;
   flex-direction: column;
   max-width: 900px; }
