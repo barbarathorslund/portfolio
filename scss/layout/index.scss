@@ -1,6 +1,6 @@
 @import 'scss/base/fonts.scss';
 @import 'scss/base/colors.scss';
-@import 'scss/base/global.scss';
+@import 'scss/base/utilities.scss';
 @import 'scss/component/topnav.scss';
 @import 'scss/component/email-reference.scss';
 @import 'scss/component/main-section.scss';
@@ -9,7 +9,6 @@ html,body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    height: 2000px;
 }
 
 .page__content {

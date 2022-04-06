@@ -9,29 +9,34 @@
   font-family: 'inconsolata', sans-serif; }
 
 .size-big-title {
-  font-size: clamp(40px, 8vw, 55px);
+  font-size: clamp(40px, 5vw, 55px);
   line-height: 1.1;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
 
 .size-med-title {
-  font-size: 35px;
+  font-size: clamp(30px, 8vw, 35px);
   line-height: 1.1;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
 
 .size-small-title {
-  font-size: 25px;
+  font-size: clamp(20px, 4vw, 25px);
   line-height: 1.1;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
 
 .size-normal-text {
   font-size: 18px;
   line-height: 1.5;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
 
 .size-small-text {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
 
 /* background colors */
 .bg-col-dark {
@@ -84,23 +89,37 @@ h1, h2, p {
 .flex-1 {
   flex: 1; }
 
-@media screen and (max-width: 750px) {
+/* responsive inline padding */
+@media (max-width: 750px) {
+  .px, .px-1, .px-2, .px-3, .px-4 {
+    padding-left: 20px !important;
+    padding-right: 20px !important; } }
+
+.px-1 {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.px-2 {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.px-3 {
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+.px-4 {
+  padding-left: 4rem;
+  padding-right: 4rem; }
+
+@media (max-width: 750px) {
   .hide-mobile {
     display: none; } }
 
-.btn {
-  display: flex;
-  max-width: 250px;
-  justify-content: center;
-  flex: 0;
-  align-items: center;
-  border: 4px solid #FF084A;
-  border-radius: 10px;
-  padding: 15px 30px;
-  cursor: pointer;
+.transition {
   transition: all 0.3s ease; }
-  .btn:hover {
-    background-color: #FFD3A7; }
+
+.h-100 {
+  height: 100%; }
 
 /* background colors */
 .bg-col-dark {
@@ -145,7 +164,8 @@ h1, h2, p {
   color: #FFECD9; }
 
 .burger-menu {
-  display: none; }
+  display: none;
+  justify-self: flex-end; }
 
 @media (max-width: 750px) {
   /* Hide top navigation links and show burger menu icon in mobile version */
@@ -164,8 +184,8 @@ h1, h2, p {
   background-color: #FFB973;
   right: 0;
   top: 65px;
-  height: 220px;
-  width: 45%;
+  height: 250px;
+  width: 50%;
   padding: 45px 50px;
   border-bottom: #FF084A solid 4px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; }
@@ -214,7 +234,6 @@ h1, h2, p {
   margin-top: 20px; }
 
 @media screen and (max-height: 410px) {
-  /* Hide email on small window height */
   .email-container__input {
     display: none; } }
 
@@ -238,14 +257,24 @@ h1, h2, p {
 .txt-col-secondary {
   color: #FFECD9; }
 
-/* main section height */
 @media (min-height: 500px) {
-  .main-section {
+  .main-section-h80 {
     height: 80vh; } }
+
+.main-section__title {
+  padding-top: 15vh;
+  background-color: #FF9F40; }
+
+.main-section__title::after {
+  content: "";
+  background-color: #FF084A;
+  display: inline-block;
+  width: 40vw;
+  height: 4px;
+  margin-left: 5%; }
 
 .main-section__content {
   display: flex;
-  height: 100%;
   align-items: center;
   justify-content: center;
   padding: 75px 50px 100px 50px;
@@ -256,11 +285,23 @@ h1, h2, p {
   flex-direction: column;
   max-width: 900px; }
 
+.btn {
+  display: flex;
+  max-width: 230px;
+  justify-content: center;
+  flex: 0;
+  align-items: center;
+  border: 4px solid #FF084A;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer; }
+  .btn:hover {
+    background-color: #FFD3A7; }
+
 html, body {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  height: 2000px; }
+  margin: 0; }
 
 .page__content {
   display: flex;

@@ -41,7 +41,8 @@
   color: #FFECD9; }
 
 .burger-menu {
-  display: none; }
+  display: none;
+  justify-self: flex-end; }
 
 @media (max-width: 750px) {
   /* Hide top navigation links and show burger menu icon in mobile version */
@@ -60,8 +61,8 @@
   background-color: #FFB973;
   right: 0;
   top: 65px;
-  height: 220px;
-  width: 45%;
+  height: 250px;
+  width: 50%;
   padding: 45px 50px;
   border-bottom: #FF084A solid 4px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; }

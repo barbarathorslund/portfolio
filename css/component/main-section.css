@@ -18,14 +18,24 @@
 .txt-col-secondary {
   color: #FFECD9; }
 
-/* main section height */
 @media (min-height: 500px) {
-  .main-section {
+  .main-section-h80 {
     height: 80vh; } }
+
+.main-section__title {
+  padding-top: 15vh;
+  background-color: #FF9F40; }
+
+.main-section__title::after {
+  content: "";
+  background-color: #FF084A;
+  display: inline-block;
+  width: 40vw;
+  height: 4px;
+  margin-left: 5%; }
 
 .main-section__content {
   display: flex;
-  height: 100%;
   align-items: center;
   justify-content: center;
   padding: 75px 50px 100px 50px;
@@ -35,3 +45,16 @@
   display: flex;
   flex-direction: column;
   max-width: 900px; }
+
+.btn {
+  display: flex;
+  max-width: 230px;
+  justify-content: center;
+  flex: 0;
+  align-items: center;
+  border: 4px solid #FF084A;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer; }
+  .btn:hover {
+    background-color: #FFD3A7; }

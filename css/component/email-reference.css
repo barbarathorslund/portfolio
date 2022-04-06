@@ -42,6 +42,5 @@
   margin-top: 20px; }
 
 @media screen and (max-height: 410px) {
-  /* Hide email on small window height */
   .email-container__input {
     display: none; } }

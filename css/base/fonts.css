@@ -9,26 +9,31 @@
   font-family: 'inconsolata', sans-serif; }
 
 .size-big-title {
-  font-size: clamp(40px, 8vw, 55px);
+  font-size: clamp(40px, 5vw, 55px);
   line-height: 1.1;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
 
 .size-med-title {
-  font-size: 35px;
+  font-size: clamp(30px, 8vw, 35px);
   line-height: 1.1;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
 
 .size-small-title {
-  font-size: 25px;
+  font-size: clamp(20px, 4vw, 25px);
   line-height: 1.1;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
 
 .size-normal-text {
   font-size: 18px;
   line-height: 1.5;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
 
 .size-small-text {
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 30px; }
+  padding-bottom: 30px;
+  margin: 0; }
