@@ -12,7 +12,7 @@ window.addEventListener('scroll', removeMenuClickClass)
 
 // Remove menu clicked class when resize or scrolling
 function removeMenuClickClass() {
-    if (window.innerWidth > 750 || window.scrollY > 300) {
+    if (window.innerWidth > 750 || window.scrollY > 1) {
         document.querySelector('.topnav__links').classList.remove('topnav__links--menu-clicked')
     }
 }
@@ -31,3 +31,21 @@ for (let i = 0; i < navbarLink.length; i++) {
         scrollToSection(i+2);
     });
 };
+
+var lastScrollTop;
+
+navbar = document.querySelector('.topnav');
+
+window.addEventListener('scroll', () => {
+    var scrollTop = window.pageYOffset || 
+    document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        navbar.style.top='-65px';
+    } 
+    else {
+        navbar.style.top='0';
+    }
+
+    lastScrollTop = scrollTop;
+});

@@ -12,6 +12,10 @@
     top:0;
     left:0;
     background-color: $c-dark-orange;
+    transition: 0.3s;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
 }
 
 .topnav__logo {
@@ -45,6 +49,7 @@
     /* Hide top navigation links and show burger menu icon in mobile version */
     .burger-menu {
         display: block;
+        z-index:99;
     }
 
     .topnav__links {
@@ -63,12 +68,13 @@
 .topnav__links--menu-clicked {
     display: flex;
     position: absolute;
-    background-color: $c-med-orange;
+    background-color: $c-dark-orange;
     right: 0;
-    top: 65px;
-    height: 250px;
-    width: 50%;
-    padding: 45px 50px;
+    top: 0px;
+    height: 300px;
+    width: 60%;
+    padding: 80px 50px;
     border-bottom: $c-bright-pink solid 4px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    z-index:1;
 }
