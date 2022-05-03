@@ -15,7 +15,7 @@
     margin: 20px auto;
 
     &:hover {
-        color: $c-light-orange;
+        color: $c-med-orange;
     }
 }
 
@@ -28,7 +28,7 @@
     margin-top: 20px;
 }
 
-@media screen and (max-height: 410px) {
+@media screen and (max-height: 450px) {
     // Hide email on small window height
     .email-container__input {
         display: none;

@@ -1,7 +1,11 @@
 @import 'scss/base/colors.scss';
 
 .main-section{
+    min-height: 1000px;
+
     &-h80 {
+        min-height: 500px;
+
         // main section height
         @media (min-height: 500px){
             height: 80vh;
@@ -50,7 +54,7 @@
     padding: 15px 30px;
     cursor: pointer;
     &:hover {
-        background-color: $c-light-orange;
+        background-color: $c-dark-orange;
     }
 }
 

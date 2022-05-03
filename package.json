@@ -17,6 +17,9 @@
     "url": "https://github.com/barbarathorslund/portfolio/issues"
   },
   "homepage": "https://github.com/barbarathorslund/portfolio#readme",
+  "devDependencies": {
+    "link-module-alias": "^1.2.0"
+  },
   "dependencies": {
     "node-sass": "^7.0.1"
   }

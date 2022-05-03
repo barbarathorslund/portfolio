@@ -1,19 +1,16 @@
 /* background colors */
 .bg-col-dark {
-  background-color: #FF9F40; }
+  background-color: #DDCDC5; }
 
 .bg-col-med {
-  background-color: #FFB973; }
-
-.bg-col-light {
-  background-color: #FFD3A7; }
+  background-color: #FAF2EF; }
 
 /* text colors */
 .txt-col-accent {
-  color: #FF084A; }
+  color: #B60322; }
 
 .txt-col-primary {
-  color: #fff; }
+  color: #000; }
 
 .txt-col-secondary {
-  color: #FFECD9; }
+  color: #4C4C4C; }

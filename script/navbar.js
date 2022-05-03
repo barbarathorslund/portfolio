@@ -16,3 +16,18 @@ function removeMenuClickClass() {
         document.querySelector('.topnav__links').classList.remove('topnav__links--menu-clicked')
     }
 }
+
+function scrollToSection(index) {
+    let pageSection = document.querySelector(`.main-section:nth-child(${index})`);
+    console.log(pageSection);
+    pageSection.scrollIntoView({behavior: "smooth"});
+}
+
+// Scroll to section based on link clicked on navbar
+const navbarLink = document.querySelectorAll('.topnav__link');
+
+for (let i = 0; i < navbarLink.length; i++) {
+    navbarLink[i].addEventListener('click', () => {
+        scrollToSection(i+2);
+    });
+};

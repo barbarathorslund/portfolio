@@ -1,22 +1,19 @@
 /* background colors */
 .bg-col-dark {
-  background-color: #FF9F40; }
+  background-color: #DDCDC5; }
 
 .bg-col-med {
-  background-color: #FFB973; }
-
-.bg-col-light {
-  background-color: #FFD3A7; }
+  background-color: #FAF2EF; }
 
 /* text colors */
 .txt-col-accent {
-  color: #FF084A; }
+  color: #B60322; }
 
 .txt-col-primary {
-  color: #fff; }
+  color: #000; }
 
 .txt-col-secondary {
-  color: #FFECD9; }
+  color: #4C4C4C; }
 
 /* top navigation bar desktop version */
 .topnav {
@@ -24,7 +21,12 @@
   align-items: center;
   padding: 0 30px;
   height: 65px;
-  z-index: 12; }
+  z-index: 12;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #DDCDC5; }
 
 .topnav__logo {
   font-size: 27px;
@@ -33,12 +35,16 @@
 
 .topnav__links {
   display: flex;
-  gap: 60px;
+  gap: 40px;
   font-size: 18px;
   align-items: center; }
 
+.topnav__link {
+  padding: 20px; }
+
 .topnav__link:hover {
-  color: #FFECD9; }
+  color: #B60322;
+  padding-right: 25px; }
 
 .burger-menu {
   display: none;
@@ -52,17 +58,19 @@
     display: none;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px; } }
+    gap: 30px; }
+  .topnav__link {
+    padding: 0px; } }
 
 /* topnav links when burger-menu clicked in mobile version */
 .topnav__links--menu-clicked {
   display: flex;
   position: absolute;
-  background-color: #FFB973;
+  background-color: #FAF2EF;
   right: 0;
   top: 65px;
   height: 250px;
   width: 50%;
   padding: 45px 50px;
-  border-bottom: #FF084A solid 4px;
+  border-bottom: #B60322 solid 4px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; }

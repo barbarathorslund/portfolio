@@ -8,7 +8,8 @@
 html,body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 33px 0;
+    box-sizing: border-box;
 }
 
 .page__content {

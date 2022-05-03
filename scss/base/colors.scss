@@ -1,9 +1,8 @@
-$c-dark-orange: #FF9F40;
-$c-med-orange: #FFB973;
-$c-light-orange: #FFD3A7;
-$c-white: #fff;
-$c-peach: #FFECD9;
-$c-bright-pink: #FF084A;
+$c-dark-orange: #DDCDC5;
+$c-med-orange: #FAF2EF;
+$c-black: #000;
+$c-peach: #4C4C4C;
+$c-bright-pink: #B60322;
 
 /* background colors */
 .bg-col-dark {
@@ -12,16 +11,14 @@ $c-bright-pink: #FF084A;
 .bg-col-med {
     background-color: $c-med-orange;
 }
-.bg-col-light{
-    background-color: $c-light-orange;
-}
+
 
 /* text colors */
 .txt-col-accent {
     color: $c-bright-pink;
 }
 .txt-col-primary {
-    color: $c-white;
+    color: $c-black;
 }
 .txt-col-secondary {
     color: $c-peach;
