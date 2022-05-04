@@ -8,9 +8,8 @@
 html,body {
     display: flex;
     flex-direction: column;
-    margin: 30px 0;
     box-sizing: border-box;
-    transition: all 0.3s ease;
+    scroll-snap-type: y mandatory;
 }
 
 .page__content {

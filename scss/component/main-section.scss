@@ -1,14 +1,20 @@
 @import 'scss/base/colors.scss';
 
+.page__content {
+}
+
 .main-section{
-    min-height: 1000px;
+    scroll-snap-align: start;
+    height: 95vh;
 
     &-h80 {
+        @extend .main-section;
+        padding: 30px 0;
         min-height: 500px;
 
         // main section height
         @media (min-height: 500px){
-            height: 80vh;
+            height: 95vh;
         }
     }
     
@@ -16,7 +22,8 @@
 
 .main-section__title {
     padding-top: 15vh;
-    background-color: $c-dark-orange;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 // line pseudo elem on section title
@@ -24,9 +31,9 @@
     content: "";
     background-color: $c-bright-pink;
     display: inline-block;
-    width: 40vw;
+    width: 25vw;
     height: 4px;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .main-section__content {

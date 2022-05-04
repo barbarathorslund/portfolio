@@ -26,7 +26,8 @@
 
 .email-container__input {
   writing-mode: vertical-rl;
-  margin: 20px auto; }
+  margin: 20px auto;
+  font-size: 18px; }
   .email-container__input:hover {
     color: #FAF2EF; }
 

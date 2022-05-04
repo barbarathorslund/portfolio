@@ -60,19 +60,19 @@ for (let i = 0; i < navbarLink.length; i++) {
 
 
 // Navbar hide/show on scroll up/down functionality 
-var lastScrollTop;
-navbar = document.querySelector('.topnav');
+// var lastScrollTop;
+// navbar = document.querySelector('.topnav');
 
-window.addEventListener('scroll', () => {
-    var scrollTop = window.pageYOffset || 
-    document.documentElement.scrollTop;
+// window.addEventListener('scroll', () => {
+//     var scrollTop = window.pageYOffset || 
+//     document.documentElement.scrollTop;
 
-    if (scrollTop > lastScrollTop) {
-        navbar.style.top='-65px';
-    } 
-    else {
-        navbar.style.top='0';
-    }
+//     if (scrollTop > lastScrollTop) {
+//         navbar.style.top='-65px';
+//     } 
+//     else {
+//         navbar.style.top='0';
+//     }
 
-    lastScrollTop = scrollTop;
-});
+//     lastScrollTop = scrollTop;
+// });
