@@ -1,7 +1,9 @@
 @import 'scss/base/colors.scss';
+@import 'scss/base/utilities.scss';
 
 /* top navigation bar desktop version */
 .topnav {
+    @extend .transition;
     display: flex;
     align-items: center;
     padding: 0 30px;
@@ -12,16 +14,13 @@
     top:0;
     left:0;
     background-color: $c-dark-orange;
-    transition: 0.3s;
-    -webkit-box-shadow: 0 4px 6px -6px #222;
-    -moz-box-shadow: 0 4px 6px -6px #222;
-    box-shadow: 0 4px 6px -6px #222;
 }
 
 .topnav__logo {
-    font-size: 27px;
+    font-size: 32px;
     text-decoration: none;
     flex: 1;
+    font-weight: bolder;
 }
 
 .topnav__links {
@@ -43,6 +42,49 @@
 .burger-menu {
     display: none;
     justify-self: flex-end;
+    width: 2em;
+    height: 1em;
+    position:relative;
+}
+
+.burger-menu::before {
+    @extend .transition;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    top:0;
+    background-color: $c-bright-pink;
+}
+
+.burger-menu::after {
+    @extend .transition;
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 75%;
+    height: 2px;
+    right: 0;
+    bottom:0;
+    background-color: $c-bright-pink;
+}
+
+.burger-menu-x {
+    @extend .burger-menu;
+    margin-top: 10px;
+}
+
+.burger-menu-x::before {
+    @extend .transition;
+    transform: rotate(45deg);
+}
+
+.burger-menu-x::after {
+    @extend .transition;
+    transform: rotate(-45deg);
+    top:0;
+    width: 100%;
 }
 
 @media (max-width: 750px) {
@@ -71,9 +113,9 @@
     background-color: $c-dark-orange;
     right: 0;
     top: 0px;
-    height: 300px;
+    height: 250px;
     width: 60%;
-    padding: 80px 50px;
+    padding: 50px 50px;
     border-bottom: $c-bright-pink solid 4px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     z-index:1;
