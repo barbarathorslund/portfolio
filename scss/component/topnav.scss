@@ -13,7 +13,7 @@
     width: 100%;
     top:0;
     left:0;
-    background-color: $c-dark-orange;
+    background-color: $c-dark;
 }
 
 .topnav__logo {
@@ -21,6 +21,7 @@
     text-decoration: none;
     flex: 1;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .topnav__links {
@@ -35,8 +36,7 @@
 }
 
 .topnav__link:hover {
-    color: $c-bright-pink;
-    padding-right: 25px;
+    color: $c-bright;
 }
 
 .burger-menu {
@@ -55,7 +55,7 @@
     width: 100%;
     height: 2px;
     top:0;
-    background-color: $c-bright-pink;
+    background-color: $c-bright;
 }
 
 .burger-menu::after {
@@ -67,7 +67,7 @@
     height: 2px;
     right: 0;
     bottom:0;
-    background-color: $c-bright-pink;
+    background-color: $c-bright;
 }
 
 .burger-menu-x {
@@ -110,13 +110,13 @@
 .topnav__links--menu-clicked {
     display: flex;
     position: absolute;
-    background-color: $c-dark-orange;
+    background-color: $c-dark;
     right: 0;
     top: 0px;
-    height: 250px;
+    height: 100vh;
     width: 60%;
     padding: 50px 50px;
-    border-bottom: $c-bright-pink solid 4px;
+    // border-left: $c-bright solid 4px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     z-index:1;
 }

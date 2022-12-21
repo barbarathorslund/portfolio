@@ -95,7 +95,8 @@ h1, h2, p {
   font-size: 32px;
   text-decoration: none;
   flex: 1;
-  font-weight: bolder; }
+  font-weight: bolder;
+  cursor: pointer; }
 
 .topnav__links {
   display: flex;
@@ -107,8 +108,7 @@ h1, h2, p {
   padding: 20px; }
 
 .topnav__link:hover {
-  color: #950216;
-  padding-right: 25px; }
+  color: #950216; }
 
 .burger-menu, .burger-menu-x {
   display: none;
@@ -167,9 +167,8 @@ h1, h2, p {
   background-color: #d4c0b7;
   right: 0;
   top: 0px;
-  height: 250px;
+  height: 100vh;
   width: 60%;
   padding: 50px 50px;
-  border-bottom: #950216 solid 4px;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   z-index: 1; }

@@ -29,7 +29,8 @@
   margin: 20px auto;
   font-size: 18px; }
   .email-container__input:hover {
-    color: #FAF2EF; }
+    color: #FAF2EF;
+    padding-bottom: 10px; }
 
 .email-container__input::after {
   content: "";

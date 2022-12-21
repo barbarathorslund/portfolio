@@ -1,78 +1,68 @@
-burgerMenu = document.querySelector('.burger-menu')
+burgerMenu = document.querySelector(".burger-menu");
 
 // Toggle topnav__links className
 function toggleMenuClickClass() {
-    document.querySelector('.topnav__links').classList.toggle('topnav__links--menu-clicked')
+  document
+    .querySelector(".topnav__links")
+    .classList.toggle("topnav__links--menu-clicked");
 }
 
-
-toggle = false
+toggle = false;
 // Toggle burger menu and close burger menu button
 function toggleMenuIcon() {
-    burgerMenu.classList.toggle('burger-menu-x');
-    burgerMenu.classList.toggle('burger-menu');
+  burgerMenu.classList.toggle("burger-menu-x");
+  burgerMenu.classList.toggle("burger-menu");
 
-    toggle = !toggle;
+  toggle = !toggle;
 }
 
 function displayBurgerMenu() {
-    if (toggle) {
-        toggleMenuIcon();
-    }
+  if (toggle) {
+    toggleMenuIcon();
+  }
 
-    toggle = false;
+  toggle = false;
 }
 
 // Remove menu clicked class when resize or scrolling
 function removeMenuClickClass() {
-    document.querySelector('.topnav__links').classList.remove('topnav__links--menu-clicked')
+  document
+    .querySelector(".topnav__links")
+    .classList.remove("topnav__links--menu-clicked");
 }
 
 // Listen for click event on burger menu
-burgerMenu.addEventListener('click', () => {
-    toggleMenuClickClass();
-    toggleMenuIcon();
+burgerMenu.addEventListener("click", () => {
+  toggleMenuClickClass();
+  toggleMenuIcon();
 });
 
 // Listen for resize and scroll event
-window.addEventListener('resize', () => {
-    removeMenuClickClass();
-    displayBurgerMenu();
+window.addEventListener("resize", () => {
+  removeMenuClickClass();
+  displayBurgerMenu();
 });
-window.addEventListener('scroll', () => {
-    removeMenuClickClass();
-    displayBurgerMenu();
+window.addEventListener("scroll", () => {
+  removeMenuClickClass();
+  displayBurgerMenu();
 });
 
 // Scroll to section based on link clicked on navbar
 function scrollToSection(index) {
-    let pageSection = document.querySelector(`.main-section:nth-child(${index})`);
-    pageSection.scrollIntoView({behavior: "smooth"});
+  let pageSection = document.querySelector(`.main-section:nth-child(${index})`);
+  pageSection.scrollIntoView({ behavior: "smooth" });
 }
 
-const navbarLink = document.querySelectorAll('.topnav__link');
+const navbarLink = document.querySelectorAll(".topnav__link");
 
 for (let i = 0; i < navbarLink.length; i++) {
-    navbarLink[i].addEventListener('click', () => {
-        scrollToSection(i+2);
-    });
-};
+  navbarLink[i].addEventListener("click", () => {
+    scrollToSection(i + 2);
+  });
+}
 
-
-// Navbar hide/show on scroll up/down functionality 
-// var lastScrollTop;
-// navbar = document.querySelector('.topnav');
-
-// window.addEventListener('scroll', () => {
-//     var scrollTop = window.pageYOffset || 
-//     document.documentElement.scrollTop;
-
-//     if (scrollTop > lastScrollTop) {
-//         navbar.style.top='-65px';
-//     } 
-//     else {
-//         navbar.style.top='0';
-//     }
-
-//     lastScrollTop = scrollTop;
-// });
+const logo = document.querySelector(".topnav__logo");
+// Scroll to top when click on logo
+logo.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});

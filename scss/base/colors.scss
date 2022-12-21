@@ -1,25 +1,25 @@
-$c-dark-orange: #d4c0b7;
-$c-med-orange: #FAF2EF;
+$c-dark: #d4c0b7;
+$c-med: #FAF2EF;
 $c-black: #000;
-$c-peach: #4C4C4C;
-$c-bright-pink: #950216;
+$c-grey: #4C4C4C;
+$c-bright: #950216;
 
 /* background colors */
 .bg-col-dark {
-    background-color: $c-dark-orange;
+    background-color: $c-dark;
 }
 .bg-col-med {
-    background-color: $c-med-orange;
+    background-color: $c-med;
 }
 
 
 /* text colors */
 .txt-col-accent {
-    color: $c-bright-pink;
+    color: $c-bright;
 }
 .txt-col-primary {
     color: $c-black;
 }
 .txt-col-secondary {
-    color: $c-peach;
+    color: $c-grey;
 }
