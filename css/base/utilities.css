@@ -19,8 +19,11 @@ h1, h2, p {
   padding-top: 0; }
 
 .row {
-  display: flex;
-  flex-direction: row; }
+  display: flex; }
+
+.center-items {
+  justify-content: center;
+  align-items: center; }
 
 .col {
   display: flex;
@@ -28,6 +31,9 @@ h1, h2, p {
 
 .flex-1 {
   flex: 1; }
+
+.relative {
+  position: relative; }
 
 /* responsive inline padding */
 @media (max-width: 750px) {
@@ -54,6 +60,10 @@ h1, h2, p {
 @media (max-width: 750px) {
   .hide-mobile {
     display: none; } }
+
+@media (max-width: 800px) {
+  .flex-switch-mobile {
+    flex-direction: column; } }
 
 .h-100 {
   height: 100%; }

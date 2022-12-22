@@ -1,29 +1,18 @@
 @import 'scss/base/colors.scss';
 
-.page__content {
-}
-
 .main-section{
     scroll-snap-align: start;
-    height: 95vh;
+    height: 100%;
+    padding: 62px 0;
 
-    &-h80 {
-        @extend .main-section;
-        padding: 30px 0;
-        min-height: 500px;
-
-        // main section height
-        @media (min-height: 500px){
-            height: 95vh;
-        }
+    // main section height
+    @media (min-height: 500px){
+        height: 95vh;
     }
-    
 }
 
 .main-section__title {
-    padding-top: 12vh;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-top: 5vh;
 }
 
 // line pseudo elem on section title
@@ -37,16 +26,16 @@
 }
 
 .main-section__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 75px 50px 100px 50px; 
     background-color: $c-med;
+    overflow: auto;
+
+    @media (max-width: 750px) {
+        overflow: unset;
+    }
 }
 
-.container--inner{
-    display: flex;
-    flex-direction: column;
+.maxw-container{
     max-width: 900px;
 }
 

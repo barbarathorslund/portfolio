@@ -25,7 +25,11 @@ h1,h2,p {
 
 .row {
     display: flex;
-    flex-direction: row;
+}
+
+.center-items {
+    justify-content: center;
+    align-items: center;
 }
 
 .col {
@@ -35,6 +39,10 @@ h1,h2,p {
 
 .flex-1 {
     flex: 1;
+}
+
+.relative{
+    position:relative
 }
 
 /* responsive inline padding */
@@ -73,6 +81,12 @@ h1,h2,p {
 .hide-mobile{
     @media (max-width: 750px) {
         display: none;
+    }
+}
+
+.flex-switch-mobile{
+    @media (max-width: 800px) {
+        flex-direction: column;
     }
 }
 
