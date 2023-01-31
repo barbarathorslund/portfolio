@@ -1,0 +1,24 @@
+/* background colors */
+.bg-col-dark {
+  background-color: #d4c0b7; }
+
+.bg-col-med {
+  background-color: #FAF2EF; }
+
+/* text colors */
+.txt-col-accent {
+  color: #950216; }
+
+.txt-col-primary {
+  color: #000; }
+
+.txt-col-secondary {
+  color: #4C4C4C; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  z-index: 5;
+  background-color: #d4c0b7; }

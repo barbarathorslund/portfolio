@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/layout/index.css" />
     <title>Document</title>
     <script src="script/navbar.js" defer></script>
+    <script src="script/carousel.js" defer></script>
   </head>
 
   <body class="bg-col-dark">
@@ -25,12 +26,12 @@
       <button class="burger-menu"></button>
     </div>
     <!-- page -->
-    <div class="page row">
-      <div class="page__content col flex-1">
+    <div class="page">
+      <div class="page__content">
         <!-- Welcome -->
         <div class="main-section">
-          <div class="main-section__content h-100 row center-items">
-            <div class="col maxw-container">
+          <div class="main-section__welcome">
+            <div class="main-section__inner-column">
               <p class="font-accent size-small-title txt-col-primary">
                 Hi world!
               </p>
@@ -47,15 +48,17 @@
         </div>
         <!-- About -->
         <div class="main-section">
-          <div class="main-section__content h-100 about-me col">
+          <div class="main-section__content about-me">
             <h2
               class="main-section__title size-med-title font-title txt-col-primary"
             >
               About me
             </h2>
-            <div class="row center-items">
-              <div class="maxw-container row flex-switch-mobile">
-                <p class="font-text size-small-text txt-col-primary">
+            <div class="main-section__center-container">
+              <div class="main-section__inner-row flex-switch-mobile">
+                <p
+                  class="about-me__text font-text size-small-text txt-col-primary"
+                >
                   Recent engineering graduate with a strong foundation in
                   computer science and a passion for frontend development.
                   Proficient in HTML, CSS, and JavaScript, with a strong
@@ -65,7 +68,7 @@
                   Experienced in the React framework and eager to continue
                   learning and growing as a developer.
                 </p>
-                <div class="about-me__image-container relative">
+                <div class="about-me__image-container">
                   <img
                     class="about-me__image"
                     alt="About me image"
@@ -88,23 +91,115 @@
         </div>
         <!-- Projects -->
         <div class="main-section">
-          <div class="main-section__content h-100">
+          <div class="main-section__content">
             <h2
               class="main-section__title size-med-title font-title txt-col-primary"
             >
               Projects
             </h2>
+            <div class="main-section__center-container">
+              <div class="carousel">
+                <button class="carousel__arrow-button" id="previous">
+                  &#8249;
+                </button>
+                <button class="carousel__arrow-button" id="next">
+                  &#8250;
+                </button>
+
+                <div class="carousel__item active">
+                  <div class="project-card">
+                    <img src="images/project2.png" alt="Project image" />
+                    <div class="info-box">
+                      <h2 class="txt-col-accent font-title">Project1</h2>
+                      <ul class="tag-list txt-col-accent font-accent">
+                        <li>React</li>
+                        <li>Typescript</li>
+                        <li>Express</li>
+                      </ul>
+                      <p class="font-text size-small-text txt-col-primary">
+                        is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer
+                        took a galley.
+                      </p>
+                      <a
+                        href="#"
+                        class="info-box__project-link txt-col-accent font-accent underline"
+                        >Full Project &#8250;
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel__item">
+                  <div class="project-card">
+                    <img src="images/project2.png" alt="Project image" />
+                    <div class="info-box">
+                      <h2 class="txt-col-accent font-title">Project2</h2>
+                      <ul class="tag-list txt-col-accent font-accent">
+                        <li>React</li>
+                        <li>Typescript</li>
+                        <li>Express</li>
+                      </ul>
+                      <p class="font-text size-small-text txt-col-primary">
+                        is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer
+                        took a galley.
+                      </p>
+                      <a
+                        href="#"
+                        class="info-box__project-link txt-col-accent font-accent underline"
+                        >Full Project &#8250;
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel__item">
+                  <div class="project-card">
+                    <img src="images/project2.png" alt="Project image" />
+                    <div class="info-box">
+                      <h2 class="txt-col-accent font-title">Project3</h2>
+                      <ul class="tag-list txt-col-accent font-accent">
+                        <li>React</li>
+                        <li>Typescript</li>
+                        <li>Express</li>
+                      </ul>
+                      <p class="font-text size-small-text txt-col-primary">
+                        is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer
+                        took a galley.
+                      </p>
+                      <a
+                        href="#"
+                        class="info-box__project-link txt-col-accent font-accent underline"
+                        >Full Project &#8250;
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel__bullet-nav">
+                  <div class="carousel__bullet active"></div>
+                  <div class="carousel__bullet"></div>
+                  <div class="carousel__bullet"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <!-- Contact -->
-        <div class="main-section">
-          <div class="main-section__content h-100">
+        <div class="main-section contact">
+          <div class="main-section__content contact">
             <h2
               class="main-section__title size-med-title font-title txt-col-primary"
             >
               Contact
             </h2>
           </div>
+        </div>
+        <div class="footer size-small-text font-text txt-col-accent">
+          &#169; 2022 Barbara Thorslund
         </div>
       </div>
       <!-- right sidebar email link -->

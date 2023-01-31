@@ -1,18 +1,20 @@
 @import 'scss/base/colors.scss';
 
 .main-section{
-    scroll-snap-align: start;
     height: 100%;
     padding: 62px 0;
-
+    scroll-snap-align: none;
+    min-height: 825px;
     // main section height
-    @media (min-height: 500px){
+    @media (min-width: 800px) {
+        scroll-snap-align: start;
         height: 95vh;
     }
 }
 
 .main-section__title {
-    padding-top: 5vh;
+    padding-left: 20px;
+    padding-top: 0.1vh;
 }
 
 // line pseudo elem on section title
@@ -25,18 +27,47 @@
     margin-left: 10%;
 }
 
-.main-section__content {
+.main-section__welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 75px 50px 100px 50px; 
     background-color: $c-med;
-    overflow: auto;
+    height:100%;
 
-    @media (max-width: 750px) {
-        overflow: unset;
+    @media (max-width: 720px) {
+        min-height: 750px;
     }
 }
 
-.maxw-container{
+.main-section__content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 100px 50px;
+    background-color: $c-med;
+    height:100%;
+}
+
+.main-section__inner-column {
+    display: flex;
+    flex-direction: column;
     max-width: 900px;
+}
+
+.main-section__inner-row {
+    display: flex;
+    max-width: 900px;
+
+    @media (max-width: 800px) {
+        align-items: center;
+    }
+}
+
+.main-section__center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .btn {
@@ -53,4 +84,3 @@
         background-color: $c-dark;
     }
 }
-

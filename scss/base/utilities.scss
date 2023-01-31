@@ -23,28 +23,7 @@ h1,h2,p {
     padding-top:0;
 }
 
-.row {
-    display: flex;
-}
-
-.center-items {
-    justify-content: center;
-    align-items: center;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-1 {
-    flex: 1;
-}
-
-.relative{
-    position:relative
-}
-
+// DEL 
 /* responsive inline padding */
 .px{
     @media (max-width: 750px) {
@@ -90,11 +69,6 @@ h1,h2,p {
     }
 }
 
-.h-100 {
-    height:100%;
-}
-
 .transition{
     transition: all 0.3s ease;
 }
-

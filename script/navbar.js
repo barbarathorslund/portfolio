@@ -20,7 +20,6 @@ function displayBurgerMenu() {
   if (toggle) {
     toggleMenuIcon();
   }
-
   toggle = false;
 }
 
@@ -54,7 +53,6 @@ function scrollToSection(index) {
 }
 
 const navbarLink = document.querySelectorAll(".topnav__link");
-
 for (let i = 0; i < navbarLink.length; i++) {
   navbarLink[i].addEventListener("click", () => {
     scrollToSection(i + 2);
@@ -62,7 +60,12 @@ for (let i = 0; i < navbarLink.length; i++) {
 }
 
 const logo = document.querySelector(".topnav__logo");
-// Scroll to top when click on logo
 logo.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+const button = document.querySelector(".btn");
+button.addEventListener("click", () => {
+  let contactSection = document.querySelector(`.main-section.contact`);
+  contactSection.scrollIntoView({ behavior: "smooth" });
 });

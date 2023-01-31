@@ -1,0 +1,10 @@
+@import 'scss/base/colors.scss';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    z-index: 5;
+    background-color: $c-dark;
+}

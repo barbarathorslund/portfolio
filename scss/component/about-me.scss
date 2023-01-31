@@ -5,6 +5,7 @@
     border-radius: 5px;
     z-index: 3;
     transition: transform 0.6s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .about-me__shape-one {
@@ -22,7 +23,13 @@
 }
 
 .about-me__image-container {
+    position: relative;
     margin: 0 55px 150px 75px;
+}
+
+.about-me__text{
+    margin-right: 15px;
+    line-height: 2rem;
 }
 
 .about-me__image-container:hover .about-me__image {
@@ -32,6 +39,6 @@
 
 .about-me__image-container:hover .about-me__shape-one {
     opacity: 1;
-    transition: 2s ease-in-out;
+    transition: 1s ease-in-out;
 }
 

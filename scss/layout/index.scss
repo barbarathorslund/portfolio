@@ -5,6 +5,8 @@
 @import 'scss/component/email-reference.scss';
 @import 'scss/component/main-section.scss';
 @import 'scss/component/about-me.scss';
+@import 'scss/component/footer.scss';
+@import 'scss/component/carousel.scss';
 
 html,body {
     display: flex;
@@ -13,10 +15,15 @@ html,body {
     scroll-snap-type: y mandatory;
 }
 
+.page{
+    display: flex;
+}
+
 .page__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 1;
 }
 
 .page__right-sidebar {
