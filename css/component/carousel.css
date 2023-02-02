@@ -22,7 +22,7 @@
   height: 100%;
   max-width: 800px;
   width: 100%; }
-  @media (min-width: 800px) {
+  @media (min-width: 900px) {
     .carousel {
       max-height: 525px; } }
 
@@ -37,7 +37,7 @@
   justify-content: center;
   align-content: center;
   padding-bottom: 50px; }
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     .carousel__item.active {
       padding-bottom: 200px; } }
 
@@ -94,7 +94,7 @@
   grid-template-columns: 1fr 25px 1fr;
   grid-template-rows: 25px 1fr 15px;
   margin-bottom: 40px; }
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     .project-card {
       display: flex;
       flex-direction: column; } }
@@ -109,7 +109,7 @@
   z-index: 1; }
 
 .info-box {
-  padding: 25px 50px 25px 50px;
+  padding: 25px 50px;
   background: #fff;
   border-radius: 5px;
   width: 300px;

@@ -61,7 +61,7 @@ h1, h2, p {
   .hide-mobile {
     display: none; } }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .flex-switch-mobile {
     flex-direction: column; } }
 

@@ -21,11 +21,23 @@
 
 .about-me__image-container {
   position: relative;
-  margin: 0 55px 150px 75px; }
+  height: 400px;
+  width: 200px;
+  margin: 0 70px 0 15px; }
+  @media (max-width: 900px) {
+    .about-me__image-container {
+      margin: 0 100px;
+      height: 400px;
+      width: 200px; } }
 
 .about-me__text {
-  margin-right: 15px;
-  line-height: 2rem; }
+  line-height: 2rem;
+  margin: 0 40px 40px 0;
+  padding: 25px 50px; }
+  @media (max-width: 900px) {
+    .about-me__text {
+      margin: 35px 0;
+      padding: 10px 20px; } }
 
 .about-me__image-container:hover .about-me__image {
   transform: translate(30px, 30px);
