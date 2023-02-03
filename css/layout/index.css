@@ -410,7 +410,7 @@ h1, h2, p {
   align-items: center;
   border: 4px solid #950216;
   border-radius: 10px;
-  padding: 15px 30px;
+  padding: 12px 25px;
   cursor: pointer; }
   .btn:hover {
     background-color: #d4c0b7; }
@@ -616,6 +616,49 @@ h1, h2, p {
 
 .info-box__project-link {
   align-self: flex-end; }
+
+/* background colors */
+.bg-col-dark {
+  background-color: #d4c0b7; }
+
+.bg-col-med {
+  background-color: #FAF2EF; }
+
+/* text colors */
+.txt-col-accent {
+  color: #950216; }
+
+.txt-col-primary {
+  color: #000; }
+
+.txt-col-secondary {
+  color: #4C4C4C; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; }
+
+input, textarea {
+  padding: 12px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  resize: none;
+  border: none;
+  width: 100vw;
+  max-width: 500px;
+  background-color: rgba(175, 177, 179, 0.3); }
+
+.form-input-title {
+  margin: 7px 0 0 0;
+  padding: 0;
+  color: #950216; }
+
+form > button {
+  margin-top: 7px;
+  align-self: center;
+  font-size: 1.25rem; }
 
 html, body {
   display: flex;

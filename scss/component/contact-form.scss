@@ -1,0 +1,33 @@
+@import 'scss/base/colors.scss';
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+    border: none;
+    width: 100vw;
+    max-width: 500px;
+    background-color: rgba(175, 177, 179, 0.3);
+}
+
+.form-input-title{
+    margin: 7px 0 0 0; 
+    padding: 0;
+    color: $c-bright;
+}
+
+form > button {
+    margin-top: 7px;
+    align-self:center; 
+    font-size: 1.25rem;
+}
+
