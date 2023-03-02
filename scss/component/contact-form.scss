@@ -5,6 +5,11 @@ form {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    margin-top: 20px;
+
+    @media (max-width: 900px) {
+        margin-top: 0;
+    }
 }
 
 input, textarea{
@@ -14,9 +19,19 @@ input, textarea{
     border-radius: 5px;
     resize: none;
     border: none;
-    width: 100vw;
+    width: 80vw;
     max-width: 500px;
     background-color: rgba(175, 177, 179, 0.3);
+}
+*:focus {
+    outline: none;
+}
+
+
+@media (max-width: 400px) {
+    input, textarea {
+        width: 100vw;
+    }
 }
 
 .form-input-title{
@@ -27,7 +42,7 @@ input, textarea{
 
 form > button {
     margin-top: 7px;
-    align-self:center; 
+    align-self:center;
     font-size: 1.25rem;
 }
 

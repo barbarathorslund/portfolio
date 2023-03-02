@@ -18,7 +18,11 @@
 form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  @media (max-width: 900px) {
+    form {
+      margin-top: 0; } }
 
 input, textarea {
   padding: 12px 10px;
@@ -27,9 +31,16 @@ input, textarea {
   border-radius: 5px;
   resize: none;
   border: none;
-  width: 100vw;
+  width: 80vw;
   max-width: 500px;
   background-color: rgba(175, 177, 179, 0.3); }
+
+*:focus {
+  outline: none; }
+
+@media (max-width: 400px) {
+  input, textarea {
+    width: 100vw; } }
 
 .form-input-title {
   margin: 7px 0 0 0;

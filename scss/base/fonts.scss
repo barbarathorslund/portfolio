@@ -1,4 +1,8 @@
 /* Fonts */
+h2 {
+    margin-bottom: 5px;
+}
+
 .font-title {
     font-family: 'Kurye', sans-serif;
 }
@@ -22,29 +26,29 @@
 
 .size-med-title {
     font-size: clamp(30px, 8vw, 35px);
-    line-height: 1.1;
     padding-bottom: 30px;
+    line-height: 1.1;
     margin:0;
 }
 
 .size-small-title {
     font-size: clamp(20px, 4vw, 25px);
-    line-height: 1.1;
     padding-bottom: 30px;
+    line-height: 1.1;
     margin:0;
 }
 
 .size-normal-text {
     font-size: 18px;
-    line-height: 1.5;
     padding-bottom: 30px;
+    line-height: 1.5;
     margin:0;
 }
 
 .size-small-text { 
     font-size: 16px;
-    line-height: 1.5;
     padding-bottom: 30px;
+    line-height: 1.5;
     margin:0;
 }
 
