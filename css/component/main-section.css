@@ -115,8 +115,7 @@ h1, h2, p {
   background-color: #FAF2EF; }
   @media (max-width: 900px) {
     .main-section__content {
-      padding: 20px;
-      width: 100%; } }
+      padding: 20px; } }
 
 .main-section__inner-column {
   display: flex;

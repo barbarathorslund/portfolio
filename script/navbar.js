@@ -66,7 +66,7 @@ logo.addEventListener("click", () => {
 
 const button = document.querySelector(".btn");
 button.addEventListener("click", () => {
-  let contactSection = document.querySelector(`.main-section.contact`);
+  let contactSection = document.querySelector(`.main-section#contact`);
   contactSection.scrollIntoView({ behavior: "smooth" });
 });
 

@@ -467,8 +467,7 @@ h1, h2, p {
   background-color: #FAF2EF; }
   @media (max-width: 900px) {
     .main-section__content {
-      padding: 20px;
-      width: 100%; } }
+      padding: 20px; } }
 
 .main-section__inner-column {
   display: flex;
@@ -550,7 +549,7 @@ h1, h2, p {
       width: 80vw; } }
   @media (max-width: 500px) {
     .about-me__text {
-      width: 100%; } }
+      width: auto; } }
 
 .about-me__image-container:hover .about-me__image {
   transform: translate(30px, 30px);
@@ -726,7 +725,7 @@ h1, h2, p {
   overflow: hidden;
   height: 100%;
   max-width: 800px;
-  width: 100%; }
+  width: 80vw; }
   @media (min-width: 900px) {
     .carousel {
       max-height: 525px; } }
