@@ -91,3 +91,9 @@ h1,h2,p {
 .transition{
     transition: all 0.3s ease;
 }
+
+.hide-mobile {
+    @media (max-width: 900px) {
+        display:none;
+    }
+}

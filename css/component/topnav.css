@@ -70,6 +70,10 @@ h1, h2, p {
 .transition, .topnav, .burger-menu::before, .burger-menu-x::before, .burger-menu::after, .burger-menu-x::after {
   transition: all 0.3s ease; }
 
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none; } }
+
 /* top navigation bar desktop version */
 .topnav {
   display: flex;

@@ -70,6 +70,10 @@ h1, h2, p {
 .transition, .topnav, .burger-menu::before, .burger-menu-x::before, .burger-menu::after, .burger-menu-x::after {
   transition: all 0.3s ease; }
 
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none; } }
+
 .bg-col-dark {
   background-color: #d4c0b7; }
 
@@ -141,6 +145,10 @@ h1, h2, p {
 
 .transition, .topnav, .burger-menu::before, .burger-menu-x::before, .burger-menu::after, .burger-menu-x::after {
   transition: all 0.3s ease; }
+
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none; } }
 
 /* top navigation bar desktop version */
 .topnav {
@@ -309,6 +317,10 @@ h1, h2, p {
 .transition, .topnav, .burger-menu::before, .burger-menu-x::before, .burger-menu::after, .burger-menu-x::after {
   transition: all 0.3s ease; }
 
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none; } }
+
 .email-container {
   display: flex;
   position: fixed;
@@ -409,6 +421,10 @@ h1, h2, p {
 
 .transition, .topnav, .burger-menu::before, .burger-menu-x::before, .burger-menu::after, .burger-menu-x::after {
   transition: all 0.3s ease; }
+
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none; } }
 
 .main-section {
   padding: 62px 0;
@@ -616,6 +632,10 @@ h1, h2, p {
 .transition, .topnav, .burger-menu::before, .burger-menu-x::before, .burger-menu::after, .burger-menu-x::after {
   transition: all 0.3s ease; }
 
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none; } }
+
 .footer {
   display: flex;
   justify-content: center;
@@ -695,6 +715,10 @@ h1, h2, p {
 
 .transition, .topnav, .burger-menu::before, .burger-menu-x::before, .burger-menu::after, .burger-menu-x::after {
   transition: all 0.3s ease; }
+
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none; } }
 
 .carousel {
   display: block;
@@ -904,6 +928,10 @@ h1, h2, p {
 
 .transition, .topnav, .burger-menu::before, .burger-menu-x::before, .burger-menu::after, .burger-menu-x::after {
   transition: all 0.3s ease; }
+
+@media (max-width: 900px) {
+  .hide-mobile {
+    display: none; } }
 
 form {
   display: flex;
