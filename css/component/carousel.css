@@ -80,7 +80,7 @@ h1, h2, p {
   overflow: hidden;
   height: 100%;
   max-width: 800px;
-  width: 80vw; }
+  width: 100%; }
   @media (min-width: 900px) {
     .carousel {
       max-height: 525px; } }
