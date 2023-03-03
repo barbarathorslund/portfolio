@@ -216,6 +216,9 @@ h1, h2, p {
 .topnav__link:hover {
   color: #950216; }
 
+.topnav__link.active {
+  color: #950216; }
+
 .burger-menu, .burger-menu-x {
   display: none;
   justify-self: flex-end;

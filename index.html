@@ -15,13 +15,15 @@
     <div class="topnav">
       <div class="topnav__logo txt-col-accent font-title">Barbara</div>
       <ul class="topnav__links font-title">
-        <button class="topnav__link txt-col-primary transition">
+        <button class="topnav__link about txt-col-primary transition">
           About me
         </button>
-        <button class="topnav__link txt-col-primary transition">
+        <button class="topnav__link projects txt-col-primary transition">
           Projects
         </button>
-        <button class="topnav__link txt-col-primary transition">Contact</button>
+        <button class="topnav__link contact txt-col-primary transition">
+          Contact
+        </button>
       </ul>
       <button class="burger-menu"></button>
     </div>
@@ -29,7 +31,7 @@
     <div class="page">
       <div class="page__content">
         <!-- Welcome -->
-        <div class="main-section">
+        <div class="main-section" id="welcome">
           <div class="main-section__welcome">
             <div class="main-section__inner-column">
               <p class="font-accent size-small-title txt-col-primary">
@@ -47,7 +49,7 @@
           </div>
         </div>
         <!-- About -->
-        <div class="main-section">
+        <div class="main-section" id="about">
           <div class="main-section__content about-me">
             <h2
               class="main-section__title size-med-title font-title txt-col-primary"
@@ -92,7 +94,7 @@
           </div>
         </div>
         <!-- Projects -->
-        <div class="main-section">
+        <div class="main-section" id="projects">
           <div class="main-section__content">
             <h2
               class="main-section__title size-med-title font-title txt-col-primary"
@@ -214,7 +216,7 @@
           </div>
         </div>
         <!-- Contact -->
-        <div class="main-section contact">
+        <div class="main-section" id="contact">
           <div class="main-section__content contact">
             <h2
               class="main-section__title size-med-title font-title txt-col-primary"

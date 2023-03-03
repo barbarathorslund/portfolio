@@ -69,3 +69,23 @@ button.addEventListener("click", () => {
   let contactSection = document.querySelector(`.main-section.contact`);
   contactSection.scrollIntoView({ behavior: "smooth" });
 });
+
+// Add active class to nav links dependent on position
+const sections = document.querySelectorAll(".main-section");
+
+window.onscroll = () => {
+  var current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (window.scrollY >= sectionTop - 60) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navbarLink.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+};

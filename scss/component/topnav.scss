@@ -39,6 +39,10 @@
     color: $c-bright;
 }
 
+.topnav__link.active {
+    color: $c-bright;
+}
+
 .burger-menu {
     display: none;
     justify-self: flex-end;
