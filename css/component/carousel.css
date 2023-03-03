@@ -28,18 +28,18 @@ h2 {
 .size-big-title {
   font-size: clamp(40px, 5vw, 55px);
   line-height: 1.1;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   margin: 0; }
 
 .size-med-title {
   font-size: clamp(30px, 8vw, 35px);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   line-height: 1.1;
   margin: 0; }
 
 .size-small-title {
   font-size: clamp(20px, 4vw, 25px);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   line-height: 1.1;
   margin: 0; }
 
