@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'Kurye';
+  src: url("../../fonts/Kurye-Light.otf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("../../fonts/Inconsolata-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
 .bg-col-dark {
   background-color: #d4c0b7; }
 
@@ -17,10 +39,10 @@ h2 {
   font-family: 'Kurye', sans-serif; }
 
 .font-text {
-  font-family: 'inria sans', sans-serif; }
+  font-family: 'InriaSans', sans-serif; }
 
 .font-accent {
-  font-family: 'inconsolata', sans-serif; }
+  font-family: 'Inconsolata', sans-serif; }
 
 .underline {
   border-bottom: 1px solid; }
@@ -74,6 +96,28 @@ h1, h2, p {
   .hide-mobile {
     display: none; } }
 
+@font-face {
+  font-family: 'Kurye';
+  src: url("../../fonts/Kurye-Light.otf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("../../fonts/Inconsolata-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
 .bg-col-dark {
   background-color: #d4c0b7; }
 
@@ -93,10 +137,10 @@ h2 {
   font-family: 'Kurye', sans-serif; }
 
 .font-text {
-  font-family: 'inria sans', sans-serif; }
+  font-family: 'InriaSans', sans-serif; }
 
 .font-accent {
-  font-family: 'inconsolata', sans-serif; }
+  font-family: 'Inconsolata', sans-serif; }
 
 .underline {
   border-bottom: 1px solid; }
@@ -245,6 +289,28 @@ h1, h2, p {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   z-index: 99; }
 
+@font-face {
+  font-family: 'Kurye';
+  src: url("../../fonts/Kurye-Light.otf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("../../fonts/Inconsolata-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
 .bg-col-dark {
   background-color: #d4c0b7; }
 
@@ -264,10 +330,10 @@ h2 {
   font-family: 'Kurye', sans-serif; }
 
 .font-text {
-  font-family: 'inria sans', sans-serif; }
+  font-family: 'InriaSans', sans-serif; }
 
 .font-accent {
-  font-family: 'inconsolata', sans-serif; }
+  font-family: 'Inconsolata', sans-serif; }
 
 .underline {
   border-bottom: 1px solid; }
@@ -350,6 +416,28 @@ h1, h2, p {
   .email-container__input {
     display: none; } }
 
+@font-face {
+  font-family: 'Kurye';
+  src: url("../../fonts/Kurye-Light.otf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("../../fonts/Inconsolata-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
 .bg-col-dark {
   background-color: #d4c0b7; }
 
@@ -369,10 +457,10 @@ h2 {
   font-family: 'Kurye', sans-serif; }
 
 .font-text {
-  font-family: 'inria sans', sans-serif; }
+  font-family: 'InriaSans', sans-serif; }
 
 .font-accent {
-  font-family: 'inconsolata', sans-serif; }
+  font-family: 'Inconsolata', sans-serif; }
 
 .underline {
   border-bottom: 1px solid; }
@@ -559,6 +647,28 @@ h1, h2, p {
   opacity: 1;
   transition: 1s ease-in-out; }
 
+@font-face {
+  font-family: 'Kurye';
+  src: url("../../fonts/Kurye-Light.otf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("../../fonts/Inconsolata-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
 .bg-col-dark {
   background-color: #d4c0b7; }
 
@@ -578,10 +688,10 @@ h2 {
   font-family: 'Kurye', sans-serif; }
 
 .font-text {
-  font-family: 'inria sans', sans-serif; }
+  font-family: 'InriaSans', sans-serif; }
 
 .font-accent {
-  font-family: 'inconsolata', sans-serif; }
+  font-family: 'Inconsolata', sans-serif; }
 
 .underline {
   border-bottom: 1px solid; }
@@ -643,6 +753,28 @@ h1, h2, p {
   z-index: 5;
   background-color: #d4c0b7; }
 
+@font-face {
+  font-family: 'Kurye';
+  src: url("../../fonts/Kurye-Light.otf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("../../fonts/Inconsolata-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
 .bg-col-dark {
   background-color: #d4c0b7; }
 
@@ -662,10 +794,10 @@ h2 {
   font-family: 'Kurye', sans-serif; }
 
 .font-text {
-  font-family: 'inria sans', sans-serif; }
+  font-family: 'InriaSans', sans-serif; }
 
 .font-accent {
-  font-family: 'inconsolata', sans-serif; }
+  font-family: 'Inconsolata', sans-serif; }
 
 .underline {
   border-bottom: 1px solid; }
@@ -856,6 +988,28 @@ h1, h2, p {
 .info-box__project-link {
   align-self: flex-end; }
 
+@font-face {
+  font-family: 'Kurye';
+  src: url("../../fonts/Kurye-Light.otf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url("../../fonts/Inconsolata-Regular.ttf"); }
+
+@font-face {
+  font-family: 'InriaSans';
+  src: url("../../fonts/InriaSans-Bold.ttf");
+  font-weight: bold; }
+
 .bg-col-dark {
   background-color: #d4c0b7; }
 
@@ -875,10 +1029,10 @@ h2 {
   font-family: 'Kurye', sans-serif; }
 
 .font-text {
-  font-family: 'inria sans', sans-serif; }
+  font-family: 'InriaSans', sans-serif; }
 
 .font-accent {
-  font-family: 'inconsolata', sans-serif; }
+  font-family: 'Inconsolata', sans-serif; }
 
 .underline {
   border-bottom: 1px solid; }

@@ -4,6 +4,29 @@ $c-black: #000;
 $c-grey: #4C4C4C;
 $c-bright: #950216;
 
+@font-face {
+    font-family: 'Kurye';
+    src: url("../../fonts/Kurye-Light.otf");
+}
+@font-face {
+    font-family: 'InriaSans';
+    src: url("../../fonts/InriaSans-Regular.ttf");
+}
+@font-face {
+    font-family: 'InriaSans';
+    src: url("../../fonts/InriaSans-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url("../../fonts/Inconsolata-Regular.ttf");
+}
+@font-face {
+    font-family: 'InriaSans';
+    src: url("../../fonts/InriaSans-Bold.ttf");
+    font-weight: bold;
+}
+
 .bg-col-dark {
     background-color: $c-dark;
 }
@@ -25,10 +48,10 @@ h2 {
     font-family: 'Kurye', sans-serif;
 }
 .font-text {
-    font-family: 'inria sans', sans-serif;
+    font-family: 'InriaSans', sans-serif;
 }
 .font-accent {
-    font-family: 'inconsolata', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
 }
 
 .underline {
