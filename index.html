@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="css/layout/index.css" />
     <title>Barbara Thorslund</title>
-    <script src="script/navbar.js" defer></script>
-    <script src="script/carousel.js" defer></script>
+    <script src="scripts/navbar.js" defer></script>
+    <script src="scripts/carousel.js" defer></script>
   </head>
 
   <body class="bg-col-dark">
@@ -205,11 +205,16 @@
                 method="POST"
               >
                 <h3 class="form-input-title font-accent">Name:</h3>
-                <input type="text" size="19" name="Contact-Name" />
+                <input type="text" size="19" name="Contact-Name" required />
                 <h3 class="form-input-title font-accent">Email:</h3>
-                <input type="email" name="Contact-Email" />
+                <input type="email" name="Contact-Email" required />
                 <h3 class="form-input-title font-accent">Message:</h3>
-                <textarea name="Contact-Message" rows="6″ cols=" 20″> </textarea
+                <textarea
+                  name="Contact-Message"
+                  rows="6″ cols="
+                  20″
+                  required
+                ></textarea
                 ><br />
                 <button
                   class="btn transition font-accent txt-col-accent"

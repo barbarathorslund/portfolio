@@ -16,10 +16,25 @@ input, textarea{
     border: none;
     width: 80vw;
     max-width: 500px;
-    background-color: rgba(175, 177, 179, 0.3);
+    background-color: #e4dedd;
 }
-*:focus {
+input:focus {
     outline: none;
+}
+textarea:focus {
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #e4dedd inset !important;
 }
 
 
