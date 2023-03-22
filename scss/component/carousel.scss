@@ -154,6 +154,10 @@
   margin-bottom: 20px;
 }
 
+.info-box__text {
+  flex-grow: 1;
+}
+
 .info-box__project-link {
   align-self: flex-end;
 }
