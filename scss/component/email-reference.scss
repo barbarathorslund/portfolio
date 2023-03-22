@@ -27,7 +27,7 @@
     display: inline-block;
     width: 4px;
     height: 120px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 @media screen and (max-height: 450px) {
@@ -36,3 +36,12 @@
         display: none;
     }
 }
+
+.socials-icon__sidebar {
+    margin-bottom: 20px;
+}
+
+.socials-icon:hover{
+    filter: invert(.4) sepia(0.5);
+}
+

@@ -96,6 +96,10 @@ h1, h2, p {
   .hide-mobile {
     display: none; } }
 
+@media (min-width: 900px) {
+  .hide-desktop {
+    display: none; } }
+
 @font-face {
   font-family: 'Kurye';
   src: url("../../fonts/Kurye-Light.otf"); }
@@ -192,6 +196,10 @@ h1, h2, p {
 
 @media (max-width: 900px) {
   .hide-mobile {
+    display: none; } }
+
+@media (min-width: 900px) {
+  .hide-desktop {
     display: none; } }
 
 /* top navigation bar desktop version */
@@ -387,6 +395,10 @@ h1, h2, p {
   .hide-mobile {
     display: none; } }
 
+@media (min-width: 900px) {
+  .hide-desktop {
+    display: none; } }
+
 .email-container {
   display: flex;
   position: fixed;
@@ -410,11 +422,17 @@ h1, h2, p {
   display: inline-block;
   width: 4px;
   height: 120px;
-  margin-top: 20px; }
+  margin-top: 0px; }
 
 @media screen and (max-height: 450px) {
   .email-container__input {
     display: none; } }
+
+.socials-icon__sidebar {
+  margin-bottom: 20px; }
+
+.socials-icon:hover {
+  filter: invert(0.4) sepia(0.5); }
 
 @font-face {
   font-family: 'Kurye';
@@ -512,6 +530,10 @@ h1, h2, p {
 
 @media (max-width: 900px) {
   .hide-mobile {
+    display: none; } }
+
+@media (min-width: 900px) {
+  .hide-desktop {
     display: none; } }
 
 .main-section {
@@ -745,13 +767,25 @@ h1, h2, p {
   .hide-mobile {
     display: none; } }
 
+@media (min-width: 900px) {
+  .hide-desktop {
+    display: none; } }
+
 .footer {
   display: flex;
+  gap: 10px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 64px;
   z-index: 5;
   background-color: #d4c0b7; }
+
+.socials-icon__footer {
+  margin: 0px 5px; }
+
+.footer__credit {
+  margin-bottom: 50px; }
 
 @font-face {
   font-family: 'Kurye';
@@ -849,6 +883,10 @@ h1, h2, p {
 
 @media (max-width: 900px) {
   .hide-mobile {
+    display: none; } }
+
+@media (min-width: 900px) {
+  .hide-desktop {
     display: none; } }
 
 .carousel {
@@ -1087,6 +1125,10 @@ h1, h2, p {
 
 @media (max-width: 900px) {
   .hide-mobile {
+    display: none; } }
+
+@media (min-width: 900px) {
+  .hide-desktop {
     display: none; } }
 
 form {

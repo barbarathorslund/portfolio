@@ -261,18 +261,38 @@
           </div>
         </div>
         <div class="footer size-small-text font-text txt-col-accent">
-          &#169; 2022 Barbara Thorslund
+          <div class="hide-desktop">
+            <img
+              class="socials-icon socials-icon__footer"
+              src="./icons/iconmonstr-email-10.svg"
+            />
+            <img
+              class="socials-icon socials-icon__footer"
+              src="./icons/iconmonstr-github-1.svg"
+            />
+          </div>
+          <div class="footer__credit">&#169; 2022 Barbara Thorslund</div>
         </div>
       </div>
       <!-- right sidebar email link -->
       <div class="page__right-sidebar hide-mobile">
         <div class="email-container">
-          <a
-            href="mailto:barbarathorslund@hotmail.com"
-            class="email-container__input transition font-accent txt-col-accent"
-          >
-            barbarathorslund@hotmail.com
-          </a>
+          <div class="email-container__input transition">
+            <a href="https://github.com/barbarathorslund"
+              ><img
+                class="socials-icon socials-icon__sidebar"
+                src="./icons/iconmonstr-github-1.svg"
+            /></a>
+            <a
+              class="font-accent txt-col-accent"
+              href="mailto:barbarathorslund@hotmail.com"
+            >
+              <img
+                class="socials-icon socials-icon__sidebar"
+                src="./icons/iconmonstr-email-10.svg"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
